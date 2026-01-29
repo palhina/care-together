@@ -41,3 +41,33 @@ app-example
 # generated native folders
 /ios
 /android
+
+# EAS Build
+.eas/
+eas-build-*/
+
+# Environment variables (comprehensive)
+.env
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+.scratchpad/
+
+ -#その他
+CLAUDE.md
+STYLING.md
+TESTING.md
+TYPESCRIPT.md
+tickets/*
